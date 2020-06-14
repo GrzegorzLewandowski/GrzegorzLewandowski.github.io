@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Formularz</title>
+<meta charset=utf-8>
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+<link rel="shortcut icon" href="foto/logo.png" />
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<body>
+<script type="text/javascript" src="js/script.js">
+</script>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <ul>
+  <li><a href="galeria.html">Galeria</a></li>
+  <li><a href="mapa.html">Mapa</a></li>
+  <li><a href="data.html">Dane</a></li>
+  <li><a href="form.html">Formularz</a></li>
+  </ul>
+</div>
+<div id="mySidebara" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNava()">&times;</a>
+  <ul>
+  <li><a href="https://www.zielonka.pl/strona-119-urzad_miasta_zielonka.html">Strona Miasta</a></li>
+  <li><a href="https://pl.wikipedia.org/wiki/Zielonka_(powiat_wo%C5%82omi%C5%84ski)">Wikipedia</a></li>
+  </ul>
+</div>
+<div id="title"><div id="button"><button class="openbtn" onclick="openNav()">&#9776; Menu</button></div><a href="index.html"> <img src="foto/logoo.jpg" id="logo" "></a>Moje Miasto Zielonka</div>
+<div id="main">
+<form action="mailto:grzes13pl@gmail.com" method="post">
+	<br>
+	<label for="fname">Twoje Imię:</label>
+	<br>
+	<input type="text" id="fname" name="fname" required="">
+	<br>
+	<label for="plec">Twoja Płeć:</label>
+	<br>
+	<input type="radio" name="plec" value="Kobieta" />Kobieta<input type="radio" name="plec" value="Mężczyzna" />Mężczyzna
+	<br>
+	<label for="email">Twój Mail:</label>
+	<br>
+	<input type="email" id="email" name="email" required=""><br>
+	<br>
+	<label for="site">Którepod strony przypadły ci do gusty:</label>
+	<br>
+	<input type="checkbox" name="site" value="Galeria" />Galeria<input type="checkbox" name="site" value="Mapa" />Mapa
+	<input type="checkbox" name="site" value="Dane" />Dane<input type="checkbox" name="site" value="Formularz" />Formularz
+		<br><br><br><br>
+	"Jakie masz pytanie na temat Zielonki?"
+	<br>
+	<textarea name="message" rows="20" cols="20"></textarea>
+	<br><br><br>
+	<br><br><br><br>
+	"Czy chciałbyś odwiedzić to piękne miasto?"
+	<br>
+	<textarea name="message" rows="20" cols="20"></textarea>
+	<br><br><br>
+	<button type="submit">Wyślij </button>
+	<button type="reset">Wyczyść formularz</button>
+
+	<form>
+	<br>
+</div>
+<div id="buttona"><button class="openbtn" onclick="openNava()">&#9776; Strony o Zielonce</button></div>
+<br><br>
+<div id='stopka'>Grzegorz Lewandowski 2TA 2020</div>
+<button onclick="window.scrollTo(0,0);" id="guzik" style="display: block;">Do góry</button>
+<button onclick="window.scrollTo(0,4000);" id="guzik2" style="display: block;">Do dołu</button>
+</body>
+</html>

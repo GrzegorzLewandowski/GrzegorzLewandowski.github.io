@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Galeria</title>
+<meta charset=utf-8>
+<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+<link rel="shortcut icon" href="foto/logo.png" />
+</head>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+<body>
+<script type="text/javascript" src="js/lightbox-plus-jquery.min.js">
+</script>
+<script type="text/javascript" src="js/script.js">
+</script>
+
+<div id="mySidebar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul>
+  <li><a href="galeria.html">Galeria</a></li>
+  <li><a href="mapa.html">Mapa</a></li>
+  <li><a href="data.html">Dane</a></li>
+  <li><a href="form.html">Formularz</a></li>
+  </ul>
+</div>
+<div id="mySidebara" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNava()">&times;</a>
+  <ul>
+  <li><a href="https://www.zielonka.pl/strona-119-urzad_miasta_zielonka.html">Strona Miasta</a></li>
+  <li><a href="https://pl.wikipedia.org/wiki/Zielonka_(powiat_wo%C5%82omi%C5%84ski)">Wikipedia</a></li>
+  </ul>
+</div>
+<div id="title"><div id="button"><button class="openbtn" onclick="openNav()">&#9776; Menu</button></div><a href="index.html"> <img src="foto/logoo.jpg" id="logo" "></a>Moje Miasto Zielonka</div>
+<div id="main">
+<div id='foto'>
+Galeria(kliknij aby powiększyć): 
+<br> 
+<a href="foto/zielonka1.jpg" data-lightbox="Galeria"><img src="foto/zielonka1-small.jpg"></a>
+<a href="foto/zielonka2.jpg" data-lightbox="Galeria"><img src="foto/zielonka2-small.jpg"></a>
+<a href="foto/zielonka3.jpg" data-lightbox="Galeria"><img src="foto/zielonka3-small.jpg"></a>
+<br>
+<a href="foto/zielonka4.jpg" data-lightbox="Galeria"><img src="foto/zielonka4-small.jpg"></a>
+<a href="foto/zielonka 5.jpg" data-lightbox="Galeria"><img src="foto/zielonka 5-small.jpg"></a>
+<a href="foto/zielonka6.jpg" data-lightbox="Galeria"><img src="foto/zielonka6-small.jpg"></a>
+</div>
+<div><audio controls src="foto/plik.mp3" id="audio"></div>
+<div class="yt">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/Mff1LcWt2Xk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+<div class="yt">
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/CGfU15PACfA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+</div>
+<div id="buttona"><button class="openbtn" onclick="openNava()">&#9776; Strony o Zielonce</button></div>
+<br><br>
+<div id='stopka'>Grzegorz Lewandowski 2TA 2020</div>
+<button onclick="window.scrollTo(0,0);" id="guzik" style="display: block;">Do góry</button>
+<button onclick="window.scrollTo(0,4000);" id="guzik2" style="display: block;">Do dołu</button>
+</body>
+</html>
