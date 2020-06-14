@@ -204,6 +204,10 @@ form
 height: 100%;
 margin:0 auto;
 }
+#mappa
+{
+	font-size:35px; padding-bottom: 5px;"
+}
 }
 @media screen and (max-width: 1200px){
 /* The sidebar menu */
@@ -402,6 +406,10 @@ form
 height: 100%;
 margin:0 auto;
 }
+#mappa
+{
+	font-size:25px; padding-bottom: 5px;"
+}
 }
 @media screen and (max-width: 600px){
 /* The sidebar menu */
@@ -597,5 +605,9 @@ form
 	width: 80%;
 height: 100%;
 margin:0 auto;
+}
+#mappa
+{
+	font-size:15px; padding-bottom: 5px;"
 }}
 
